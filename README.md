@@ -23,7 +23,7 @@
 
 <h2>Usage</h2>
 <p>Run the script using the following command:</p>
-<pre><code>python google_places_collector.py</code></pre>
+<pre><code>python DPLocator.py</code></pre>
 
 <h3>Step-by-Step Instructions:</h3>
 <ol>
