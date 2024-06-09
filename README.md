@@ -3,49 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Places Collector</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            color: #2C3E50;
-        }
-        code {
-            background-color: #ECF0F1;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #ECF0F1;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            color: #fff;
-            background-color: #3498DB;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 5px #2980B9;
-        }
-        .button:hover {
-            background-color: #2980B9;
-        }
-        .button:active {
-            background-color: #2980B9;
-            box-shadow: 0 5px #1A5276;
-            transform: translateY(4px);
-        }
-    </style>
 </head>
 <body>
 
