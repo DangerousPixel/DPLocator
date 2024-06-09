@@ -93,7 +93,7 @@
 <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
 
 <h2>Contact</h2>
-<p>For any inquiries or issues, please contact <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+<p>For any inquiries or issues, please contact <a href="mailto:siidrove@gmail.com">via Email</a>.</p>
 
 </body>
 </html>
