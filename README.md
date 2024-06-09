@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>Google Places Collector</h1>
+<h1>DPLocator Places Collector</h1>
 
 <p>This project is designed to search for various types of locations using the Google Places API and save the results to an Excel file. Users can choose from a wide range of location types such as real estate, supermarkets, gas stations, restaurants, hospitals, and more. The project is multilingual, supporting both English and Arabic languages.</p>
 
@@ -50,7 +50,7 @@
 <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
 
 <h2>Contact</h2>
-<p>For any inquiries or issues, please contact <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+<p>For any inquiries or issues, please contact <a href="mailto:siidrove@gmail.com">via E-mail</a>.</p>
 
 </body>
 </html>
