@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPLocator Places Collector</title>
 </head>
 <body>
 
@@ -36,6 +37,17 @@
 <h2>Configuration</h2>
 <p>Replace <code>YOUR_GOOGLE_PLACES_API_KEY</code> with your actual Google Places API key in the script:</p>
 <pre><code>api_key = 'YOUR_GOOGLE_PLACES_API_KEY'</code></pre>
+
+<h2>Creating a Google API Key</h2>
+<ol>
+    <li>Go to the <a href="https://console.cloud.google.com/">Google Cloud Console</a>.</li>
+    <li>Create a new project or select an existing project.</li>
+    <li>Navigate to the <a href="https://console.cloud.google.com/apis/dashboard">API & Services Dashboard</a>.</li>
+    <li>Click on "Enable APIs and Services" and search for "Places API". Click on "Enable" to enable the API for your project.</li>
+    <li>Navigate to the <a href="https://console.cloud.google.com/apis/credentials">Credentials</a> page.</li>
+    <li>Click on "Create Credentials" and select "API key".</li>
+    <li>Your new API key will appear. Copy this key and use it in your script where it says <code>YOUR_GOOGLE_PLACES_API_KEY</code>.</li>
+</ol>
 
 <h2>Requirements</h2>
 <ul>
