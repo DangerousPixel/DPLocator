@@ -19,7 +19,7 @@
 </ul>
 
 <h2>Installation</h2>
-<pre><code>pip install -r requirements.txt</code></pre>
+<pre><code>pip install requests pandas XlsxWriter colorama</code></pre>
 
 <h2>Usage</h2>
 <p>Run the script using the following command:</p>
