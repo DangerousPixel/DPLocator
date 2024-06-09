@@ -1,4 +1,3 @@
-    # api_key = 'AIzaSyC5suuO0lxDNu9vgMq9YXENm0-sEO_Btz0'  # Replace with your Google Places API key
 import requests
 import pandas as pd
 import os
