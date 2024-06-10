@@ -91,7 +91,7 @@ LOCATION_TYPES = {
     '80': {'en': 'travel agency', 'ar': 'وكالة سفر'},
     '81': {'en': 'university', 'ar': 'جامعة'},
     '82': {'en': 'veterinary care', 'ar': 'رعاية بيطرية'},
-    '81': {'en': 'zoo', 'ar': 'حديقة حيوان'}
+    '81': {'en': 'zoo', 'ar': 'حديقة حيوان'},
     '82': {'en': 'law firm', 'ar': 'مكتب محاماة'},
 }
 
