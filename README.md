@@ -1,67 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+# DPLocator
 
-<h1>DPLocator Places Collector</h1>
+DPLocator is a Python script designed to fetch location data from the Google Places API based on user-defined parameters. The script allows users to search for various types of places within a specified city and export the results to an Excel file.
 
-<p>This project is designed to search for various types of locations using the Google Places API and save the results to an Excel file. Users can choose from a wide range of location types such as real estate, supermarkets, gas stations, restaurants, hospitals, and more. The project is multilingual, supporting both English and Arabic languages.</p>
+## Features
 
-<h2>Features</h2>
-<ul>
-    <li>Search for different types of locations using the Google Places API.</li>
-    <li>Supports a wide range of location types.</li>
-    <li>Multilingual support (English and Arabic).</li>
-    <li>Results are saved to an Excel file with clickable WhatsApp links.</li>
-</ul>
+- Supports both English and Arabic languages.
+- Fetches detailed information about places including name, phone number, WhatsApp link, Google Maps link, status, city, district, and overall rating.
+- Utilizes Google Places API for data retrieval and Google Geocoding API for fetching city coordinates.
+- Handles pagination to retrieve more than the default limit of 60 results.
+- Outputs results to a styled Excel file with centralized text.
 
-<h2>Installation</h2>
-<pre><code>pip install requests pandas XlsxWriter colorama</code></pre>
+## Requirements
 
-<h2>Usage</h2>
-<p>Run the script using the following command:</p>
-<pre><code>python DPLocator.py</code></pre>
+- Python 3.x
+- `requests` library
+- `pandas` library
+- `xlsxwriter` library
+- Google Places API key
+- Google Geocoding -> install it from project's library of google console
 
-<h3>Step-by-Step Instructions:</h3>
-<ol>
-    <li>When prompted, select your preferred language (1 for English, 2 for Arabic).</li>
-    <li>Enter the name of the city you want to search in.</li>
-    <li>Select the type of location you are looking for from the provided list.</li>
-    <li>The script will fetch the results and save them to an Excel file named <code>places_data.xlsx</code> in the current directory.</li>
-</ol>
+## Installation
 
-<h2>Configuration</h2>
-<p>Replace <code>YOUR_GOOGLE_PLACES_API_KEY</code> with your actual Google Places API key in the script:</p>
-<pre><code>api_key = 'YOUR_GOOGLE_PLACES_API_KEY'</code></pre>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DangerousPixel/DPLocator.git
+   cd DPLocator
+   ```
+2.	Install the required Python libraries:
+       ```bash
+          pip install requests pandas xlsxwriter
+    ```
+## Usage
 
-<h2>Creating a Google API Key</h2>
-<ol>
-    <li>Go to the <a href="https://console.cloud.google.com/">Google Cloud Console</a>.</li>
-    <li>Create a new project or select an existing project.</li>
-    <li>Navigate to the <a href="https://console.cloud.google.com/apis/dashboard">API & Services Dashboard</a>.</li>
-    <li>Click on "Enable APIs and Services" and search for "Places API". Click on "Enable" to enable the API for your project.</li>
-    <li>Navigate to the <a href="https://console.cloud.google.com/apis/credentials">Credentials</a> page.</li>
-    <li>Click on "Create Credentials" and select "API key".</li>
-    <li>Your new API key will appear. Copy this key and use it in your script where it says <code>YOUR_GOOGLE_PLACES_API_KEY</code>.</li>
-</ol>
+1. Run the script:
+   ```bash
+       python dplocator.py
+   
+2. Follow the prompts:
+   
+	•	Select the language (1 for English, 2 for Arabic).
 
-<h2>Requirements</h2>
-<ul>
-    <li>Python 3.x</li>
-    <li>Requests library</li>
-    <li>Pandas library</li>
-    <li>XlsxWriter library</li>
-    <li>Colorama library</li>
-</ul>
+	•	Enter the city name.
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
+	•	Select the type of location from the provided list.
 
-<h2>Contact</h2>
-<p>For any inquiries or issues, please contact <a href="mailto:siidrove@gmail.com">via E-mail</a>.</p>
+	•	The script will fetch the data and save it to an Excel file in the current directory.
 
-</body>
-</html>
+## Example
+
+   ```bash
+    Select your language (1: English, 2: Arabic): 1
+    Enter the city name: Riyadh
+    Fetching coordinates for the city...
+    Coordinates fetched: {'lat': 24.7135517, 'lng': 46.6752957}
+    Fetching places...
+    Data saved to /path/to/your/directory/places_data.xlsx
+```
+## Notes
+
+•	Ensure your Google API keys have the necessary permissions enabled.
+•	The script handles pagination to fetch more results but adheres to API usage limits.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
+
