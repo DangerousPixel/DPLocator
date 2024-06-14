@@ -59,6 +59,7 @@ DPLocator is a Python script designed to fetch location data from the Google Pla
 ## Notes
 
 •	Ensure your Google API keys have the necessary permissions enabled.
+
 •	The script handles pagination to fetch more results but adheres to API usage limits.
 
 ## Contributing
